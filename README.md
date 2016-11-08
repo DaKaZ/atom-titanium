@@ -1,8 +1,13 @@
 # All-in-One package for Titanium Alloy
 This is a Atom package for [Titanium Alloy](https://github.com/appcelerator/alloy)
 
+THIS IS A CUSTOM FORK, TO INSTALL:
+
+- git clone this repo
+- change to the clone directory and run:
 ```
-$ apm install titanium-alloy
+apm link .
+apm install
 ```
 
 > **Conflict & Requires Notice**  
@@ -24,7 +29,7 @@ $ apm install titanium-alloy
   - on XML : After `<Require src='`, you can see the suggestions.
   - on JS : After `Alloy.create[Controller|Widget|Model]`, you can see the suggestions.
 - Image path
-    - image path in `app/assets/images` directory. 
+    - image path in `app/assets/images` directory.
     - When you type `'/i'`, you can see the suggestions.
 - i18n
   - i18n key base on `app/i18n/{language}/strings.xml`
