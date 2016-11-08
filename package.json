@@ -1,7 +1,7 @@
 {
-  "name": "titanium-alloy",
+  "name": "titanium-alloy-viewManager",
   "main": "./lib/main",
-  "version": "0.12.2",
+  "version": "0.12.3",
   "description": "All-in-One package for Titanium Alloy",
   "license": "MIT",
   "keywords": [
@@ -10,7 +10,7 @@
     "jump-to-definition",
     "autocomplete"
   ],
-  "repository": "https://github.com/yomybaby/atom-titanium",
+  "repository": "https://github.com/DaKaZ/atom-titanium.git",
   "engines": {
     "atom": ">=0.174.0 <2.0.0"
   },
